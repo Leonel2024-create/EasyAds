@@ -1,15 +1,11 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Dashboard from './components/Dashboard';
-import Footer from './components/Footer';
-import './styles/index.css';  // Importamos estilos globales
+import Navbar from './components/Navbar'; 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Dashboard />
-      <Footer />
+    <div>
+      <Navbar /> {/* Usar el componente Navbar */}
+      <h1>¡Bienvenido a EasyAds con Vite!</h1>
+      <p>Esta es tu aplicación lista para empezar.</p>
     </div>
   );
 }
