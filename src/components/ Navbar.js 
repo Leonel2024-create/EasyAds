@@ -1,0 +1,17 @@
+import React from 'react';
+
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <div className="navbar-logo">EasyAds</div>
+      <ul className="navbar-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Campañas</a></li>
+        <li><a href="#">Métricas</a></li>
+        <li><a href="#">Perfil</a></li>
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;
