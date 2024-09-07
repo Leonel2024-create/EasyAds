@@ -1,0 +1,30 @@
+# Ignorar la carpeta de dependencias
+node_modules/
+
+# Ignorar los archivos de logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignorar la carpeta de cache de Vite
+.vite/
+
+# Ignorar los archivos de configuración de entorno
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de compilación de producción
+dist/
+
+# Ignorar archivos de bloqueos de paquetes
+package-lock.json
+yarn.lock
+
+# Ignorar archivos de backup temporales
+*.bak
+*.swp
+
+# Ignorar la carpeta de configuración de sistemas operativos específicos
+.DS_Store  # macOS
+Thumbs.db  # Windows
