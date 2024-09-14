@@ -2,7 +2,7 @@
   "name": "easyads",
   "version": "1.0.0",
   "description": "Proyecto EasyAds",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
