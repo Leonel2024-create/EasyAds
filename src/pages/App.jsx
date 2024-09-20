@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
-import CreateCampaign from './components/CreateCampaign';
-import UploadMedia from './components/UploadMedia';
+import CreateCampaign from '../components/CreateCampaign';
+import UploadMedia from '../components/UploadMedia';
 
 function App() {
   return (
