@@ -1,17 +1,10 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
-const Home = () => {
+export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Bienvenido a EasyAds</h1>
-      <Footer />
+      <p>Esta es la página principal de la aplicación migrada a Next.js.</p>
     </div>
   );
-};
-
-export default Home;
-
-
+}
