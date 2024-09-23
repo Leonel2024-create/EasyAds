@@ -4,7 +4,7 @@ const Dashboard = () => {
   return (
     <div>
       <h1>Dashboard</h1>
-      <p>Welcome to the EasyAds Dashboard!</p>
+      <p>Bienvenido al panel de administración de EasyAds</p>
     </div>
   );
 };
