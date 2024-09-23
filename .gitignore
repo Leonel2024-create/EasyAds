@@ -1,12 +1,9 @@
 # Node.js
 node_modules/
 
-# Build output
+# Build output (Next.js)
 .next/
 out/
-
-# Vite (si se sigue utilizando en algunas partes del proyecto)
-.vite/
 
 # Build artifacts
 dist/
@@ -25,10 +22,6 @@ pnpm-debug.log*
 .env.*.local
 .env.production.local
 
-# Next.js
-.next/
-out/
-
 # TypeScript
 *.tsbuildinfo
 
@@ -42,3 +35,4 @@ Thumbs.db
 *.log
 *.swp
 *.lock
+node_modules
