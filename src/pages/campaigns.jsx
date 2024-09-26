@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CampaignsPage() {
+function campaignsPage() {
   return (
     <div>
       <h1>Campañas</h1>
@@ -13,4 +13,4 @@ function CampaignsPage() {
   );
 }
 
-export default CampaignsPage;
+export default campaignsPage;

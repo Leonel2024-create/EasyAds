@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Dashboard = () => {
+const dashboard = () => {
   return (
     <div>
-      <h1>Dashboard</h1>
+      <h1>dashboard</h1>
       <p>Bienvenido al panel de administración de EasyAds</p>
     </div>
   );
 };
 
-export default Dashboard;
+export default dashboard;
