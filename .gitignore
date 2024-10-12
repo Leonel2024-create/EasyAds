@@ -1,11 +1,11 @@
-# Node.js
+# Node.js 
 node_modules/
 
 # Build output (Next.js)
 .next/
 out/
 
-# Build artifacts
+# Build artifacts                                                                                                                                                     
 dist/
 .cache/
 build/
@@ -35,4 +35,3 @@ Thumbs.db
 *.log
 *.swp
 *.lock
-node_modules
