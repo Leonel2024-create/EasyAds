@@ -1,4 +1,4 @@
-function CampaignsPage() {
+const CampaignsPage = () => {
   return (
     <div>
       <h1>Campañas</h1>
@@ -9,6 +9,6 @@ function CampaignsPage() {
       </ul>
     </div>
   );
-}
+};
 
 export default CampaignsPage;

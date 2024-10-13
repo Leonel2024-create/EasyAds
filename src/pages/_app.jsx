@@ -1,12 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Dashboard from './dashboard';
+import CampaignsPage from './campaigns';
 import TermsAndConditions from '../components/TermsAndConditions';
 import PrivacyPolicy from '../components/PrivacyPolicy';
 import Footer from '../components/Footer';
 import Dashboard from './dashboard';
 import CampaignsPage from './campaigns';
 import Home from './index';
-import Login from './login'; // Importa el componente Login
+import Login from './login'; 
 
 function App() {
   return (
