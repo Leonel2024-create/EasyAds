@@ -1,6 +1,4 @@
-import React from 'react';
-
-function campaignsPage() {
+function CampaignsPage() {
   return (
     <div>
       <h1>Campañas</h1>
@@ -13,4 +11,4 @@ function campaignsPage() {
   );
 }
 
-export default campaignsPage;
+export default CampaignsPage;
