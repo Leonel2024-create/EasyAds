@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import dashboard from './pages/dashboard';
-import campaigns from './pages/campaigns';
+import dashboard from '@pages/dashboard';
+import campaigns from '@pages/campaigns';
 import TermsAndConditions from '../components/TermsAndConditions';
 import PrivacyPolicy from '../components/PrivacyPolicy';
 import Footer from '../components/Footer';

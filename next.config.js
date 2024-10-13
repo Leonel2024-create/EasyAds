@@ -1,12 +1,13 @@
+const path = require('path');
+
 module.exports = {
-    async redirects() {
-      return [
-        {
-          source: '/old-page',
-          destination: '/new-page',
-          permanent: true,
-        },
-      ]
-    },
-  }
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@components': path.resolve(__dirname, 'src/components'),
+      '@pages': path.resolve(__dirname, 'src/pages'),
+    };
+    return config;
+  },
+};
   
