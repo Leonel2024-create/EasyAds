@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Dashboard from './dashboard';
-import CampaignsPage from './campaigns';
+import Dashboard from './Dashboard';
+import CampaignsPage from './Campaigns';
 import TermsAndConditions from '../components/TermsAndConditions';
 import PrivacyPolicy from '../components/PrivacyPolicy';
 import Footer from '../components/Footer';
-import Home from './index';
-import Login from './login'; 
+import Home from './Index';
+import Login from './Login'; 
 
 function App() {
   return (
